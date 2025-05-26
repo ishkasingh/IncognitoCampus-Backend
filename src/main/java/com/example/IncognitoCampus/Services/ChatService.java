@@ -17,7 +17,12 @@ public class ChatService {
         return chatMessageRepository.save(message);
     }
 
-    public List<ChatMessage> getMessagesByRoomId(String roomId) {
-        return chatMessageRepository.findByRoomIdOrderByTimestampAsc(roomId);
+//    public List<ChatMessage> getMessagesByRoomName(String roomId) {
+//        return chatMessageRepository.findByRoomIdOrderByTimestampAsc(roomId);
+//    }
+
+    public List<ChatMessage> getMessagesByRoomName(String roomName) {
+        return chatMessageRepository.findByRoomNameOrderByTimestampAsc(roomName);
     }
+
 }

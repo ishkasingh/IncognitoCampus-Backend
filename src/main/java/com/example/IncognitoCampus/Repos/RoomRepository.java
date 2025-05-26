@@ -13,6 +13,8 @@ public interface RoomRepository extends MongoRepository<Room, String> {
     Optional<Room> findByName(String name);
     List<Room> findByCollege(String college);
 
+    Optional<Room> findById(String roomId);
+
     Optional<Room> findByNameIgnoreCase(String name);
 
     List<Room> findByCollegeIgnoreCase(String college);

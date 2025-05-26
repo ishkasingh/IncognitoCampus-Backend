@@ -11,9 +11,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Room {
     @Id
     private String id;
-    private String name;       // e.g., IIT Bombay - CSE
-    private String college;
-    private String branch;
-    private String Description;
+        private String name;       // e.g., IIT Bombay - CSE
+        private String college;
+        private String branch;
+        private String Description;
+
+
 }
 

@@ -15,6 +15,7 @@ public class ChatMessage {
     private String id;
 
     private String roomId;
+    private String senderName;
     private String senderId;
     private String roomName;  // anamous name
 

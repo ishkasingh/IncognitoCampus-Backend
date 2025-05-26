@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/rooms")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:5173")
 public class RoomController {
 
     @Autowired
@@ -48,8 +48,8 @@ public class RoomController {
 
 
     @GetMapping("/search")
-    public List<Room> searchRoomsByKeyword(@RequestParam String keyword) {
-        return roomService.searchRoomsByNameKeyword(keyword);
+    public List<Room> searchRoomsByKeyword(@RequestParam String query) {
+        return roomService.searchRoomsByNameKeyword(query);
     }
 }
 
