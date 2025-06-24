@@ -37,7 +37,7 @@ In college, not everyone feels safe speaking their mind. Whether it’s placemen
 - React.js  
 - JavaScript  
 - CSS  
-- 🔗 [View Frontend Repository](https://github.com/priyanshujain135/IncognitoCampus-Frontend)
+- 🔗 [View Frontend Repository](https://github.com/ishkasingh/IncognitoCampus-Frontend)
 
 **Backend**  
 - Spring Boot  
